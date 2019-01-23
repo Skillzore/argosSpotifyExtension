@@ -5,7 +5,7 @@ There are also some simple controls to pause/play, go to next or previous song a
 
 If spotify isn't running, "Spotify is not running" is displayed together with a button to start Spotify.
 
-![Spotify extension screenshot running](https://i.imgur.com/R8xiuBT.png)
+![Spotify extension screenshot running](https://i.imgur.com/QwXCofR.png)
 ![Spotify extension screenshot not running](https://i.imgur.com/Re7fPg7.png)
 
 To edit the text, change the string variable `finalString` in the script to your liking. To change the shortening threshold, change the variable `maxDisplayLength` to your desired length. To change the color of the Artist, Album and Title in the menu, change the variable `detailColor`.
