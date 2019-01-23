@@ -9,7 +9,7 @@
 #        if proc.name() == sys.argv[1]:
 #            proc.kill()
 #
-# ![Spotify extension screenshot running](https://i.imgur.com/R8xiuBT.png)
+# ![Spotify extension screenshot running](https://i.imgur.com/QwXCofR.png)
 # ![Spotify extension screenshot not running](https://i.imgur.com/Re7fPg7.png)
 # Made by [Skillzore](https://github.com/Skillzore)
 
