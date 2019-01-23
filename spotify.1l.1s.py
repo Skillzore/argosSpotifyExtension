@@ -34,7 +34,7 @@ def maybeShorten(string):
 
 # Replace special characters in string with the corresponding html entity number
 def cleanSpecialChars(string):
-    return string.replace("&","&#36;").replace("|","&#124;")
+    return string.replace("&","&#38;").replace("|","&#124;")
     
 # Build menu item
 if(isRunning("spotify")):
