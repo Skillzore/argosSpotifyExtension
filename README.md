@@ -1,6 +1,6 @@
 # argosSpotifyExtension
 
-This is a simple Spotify extension that displays the currently playing/paused song with artist and title.
+This is a simple Spotify extension that displays the currently playing/paused song with artist, album and title.
 There are also some simple controls to pause/play, go to next or previous song and to exit spotify. Exit Spotify uses the separate python script `.kill.py` which needs to be included, or you can just remove the exit button from the main script.
 
 If spotify isn't running, "Spotify is not running" is displayed together with a button to start Spotify.
