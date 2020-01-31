@@ -23,7 +23,7 @@ startUri = 'spotify:track:3sXHMpriGlbFhMdJT6tzao'
 # Check if process name is running
 def isRunning(name):
     for proc in psutil.process_iter():
-        if(proc.name() == name):
+        if(proc.name() == name and proc.status() != psutil.STATUS_ZOMBIE):
             return True
 
 # Shorten strings longer than maxDisplayLength to maxDisplayLength and add ... after
